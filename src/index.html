@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -6,9 +7,44 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <div class="top" id="header">
+      <header> CARD VALIDATOR </header>
+    </div>
+
+    <div class="cardImage"> 
+      <img src="https://www.pngall.com/wp-content/uploads/2/Black-Credit-Card-PNG-Image.png" id="cardImage">
+    </div>
+
+    <div class="form" id="cardNumber">
+    <form id="formTarjeta" class="formTarjeta" action="">
+
+    <div>
+    <label for="tarjetaCredito">NUMERO DE TARJETA</label>
+      <input type="text" id="inputCard" name="tarjetaCredito" maxlength="16"  onkeypress="return event.charCode>=48 && event.charCode<=57" required placeholder="XXXX XXXX XXXX XXXX" size="20"/>
+    </div>
+      <br>
+      
+    <div>
+    <label for="nombre">NOMBRE TARJETA</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required/> 
+    </div>
+      <br>
+
+    <div>
+    <label for="fecha">EXP</label>
+      <input type="date" id="fecha" required size="10"/>  
+    <label for="cvv">CVV:</label>
+      <input type="text" id="cvv" name="cvv" placeholder="123" size="3" required/>
+    </div>
+      <br>
+
+    <div class="btn">
+      <button type="button" id="validateBtn">ENVIAR</button> 
+    </div>
+  </form>
+
     <script src="index.js" type="module"></script>
+    <footer> </footer>
   </body>
 </html>
+

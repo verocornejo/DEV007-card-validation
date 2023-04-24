@@ -17,7 +17,6 @@ button.addEventListener("click", function(event){
   const isValid = validator.isValid(creditCardNumber);
   const mask = validator.maskify(creditCardNumber);
 
-
   if(isValid === true){
     alert("La tarjeta  "+ mask +" es válida");
   }

@@ -41,15 +41,17 @@ body {
     display: flex;
 }
 .btn {
-    background-color: #000000;
-    border-radius: 6px;
-    font-size: x-large;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    width: 50%;
-    max-width: fit-content;
-    padding: 1px 1px;
-    margin-inline: auto;
-    display: flex;
+    font-size:14px;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:white;
+    background:#000000;
+    border:0px;
+    width:85px;
+    height:28px;
+    margin: auto;
+
+    
 
 }
 .cardImage {
@@ -64,5 +66,7 @@ img {
     height: 100%;
 }
 
-
+input, textarea {
+    background-color: rgb(221, 221, 221)
+}
 

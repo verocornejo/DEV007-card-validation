@@ -19,27 +19,27 @@
     <form id="formTarjeta" class="formTarjeta" action="">
 
     <div>
-    <label for="tarjetaCredito">NUMERO DE TARJETA</label>
-      <input type="text" id="inputCard" name="tarjetaCredito" maxlength="16"  onkeypress="return event.charCode>=48 && event.charCode<=57" required placeholder="XXXX XXXX XXXX XXXX" size="20"/>
+    <label for="tarjetaCredito">NUMERO DE TARJETA</label><br>
+      <input type="text" id="inputCard" name="tarjetaCredito" maxlength="16"  onkeypress="return onlyNum(event)" required placeholder="XXXX XXXX XXXX XXXX" size="30"/>
     </div>
       <br>
       
     <div>
-    <label for="nombre">NOMBRE TARJETA</label>
-      <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required/> 
+    <label for="nombre">NOMBRE TARJETA</label><br>
+      <input type="text" id="nombre" name="nombre" pattern="^[A-Za-z]+$" onkeypress="return onlyTxt(event)" placeholder="INGRESE SU NOMBRE" size = "30" required/> 
     </div>
       <br>
 
     <div>
     <label for="fecha">EXP</label>
-      <input type="date" id="fecha" required size="10"/>  
-    <label for="cvv">CVV:</label>
-      <input type="text" id="cvv" name="cvv" placeholder="123" size="3" required/>
+      <input type="date"  size="10" required/>  
+    <label for="cvv">CVV</label>
+      <input type="text" id="cvv" name="cvv" maxlength="3" onkeypress="return onlyNum(event)"  placeholder ="123" size="8" required/>
     </div>
       <br>
 
     <div class="btn">
-      <button type="button" id="validateBtn">ENVIAR</button> 
+      <button type="button" class="btn" id="validateBtn" value="enviar">ENVIAR</button> 
     </div>
   </form>
 

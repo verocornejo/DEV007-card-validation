@@ -25,9 +25,9 @@ button.addEventListener("click", function(event){
   }
 }); 
 //para que el input sean solo numeros
-window.onlyNum = function onlyNum(event) {
+window.onlyNum = function onlyNum(event) { //El objeto window representa la ventana que contiene un documento DOM
   const key = event.key;
-  if(!key.match (/\d|Backspace/))
+  if(!key.match (/\d|Backspace/)) //El método match() devuelve todas las ocurrencias de una expresión regular dentro de una cadena
     event.preventDefault();
 };
 //para que el input sea solo letras

@@ -28,9 +28,8 @@ body {
     max-width: fit-content;
     padding: 4px 2px;
     margin: auto;
-    display: flex;
 }
-.form {
+main {
     background-color: #F5F5F5;
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
@@ -38,7 +37,7 @@ body {
     max-width: fit-content;
     padding: 4px 2px;
     margin: auto;
-    display: flex;
+    
 }
 .btn {
     font-size:14px;
@@ -70,3 +69,11 @@ input, textarea {
     background-color: rgb(221, 221, 221)
 }
 
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    width: 100%;
+    max-width: fit-content;
+    padding: 4px 2px;
+    margin: auto;
+}

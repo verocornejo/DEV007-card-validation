@@ -1,8 +1,7 @@
 import validator from './validator.js';
-//declarar variables y llamar desde html
+//declarar variables y llamar desde html para crear el evento donde 
 const button = document.getElementById("validateBtn");
 const creditCard = document.getElementById("inputCard");
-
 
 button.addEventListener("click", function(event){ 
   event.preventDefault();//Evitar que se recargue la página

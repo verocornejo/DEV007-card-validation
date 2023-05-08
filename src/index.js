@@ -9,8 +9,8 @@ button.addEventListener("click", function(event){
     alert("Por favor ingrese su número de tarjeta");
     return; //termina la función si el input está vacío
   }
-  if(creditCard.value.length < 16){
-    alert("El número de tarjeta debe tener al menos 16 caracteres");
+  if(creditCard.value.length < 16){ // condicion de 16 caracteres
+    alert("El número de tarjeta debe tener al menos 16 caracteres"); 
     return;
   }
 

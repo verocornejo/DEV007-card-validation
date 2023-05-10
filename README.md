@@ -29,14 +29,14 @@ Luego en cada sprint fui utilizando Trello para organizar mi lista de tareas, y 
 
 
 ##### Recursos utilizados
-[Definicion Expresiones Regulares](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Grammar_and_Types#expresiones_regulares_%C2%ABregexp%C2%BB_literales "Expresiones Regulares")
-[Herramienta para crear RegExp](https://regexr.com/ "Herramienta para crear RegExp")
-[Como convertir string a numero](http://https://www.freecodecamp.org/news/string-to-number-in-javascript-convert-a-string-to-an-int-in-js/ "Como convertir string a numero")
-[Herramienta para aprender git branches](https://learngitbranching.js.org/?locale=es_ES "Herramienta para aprender git branches")
-[Permitir solo numeros en input](http://https://www.coderbox.net/blog/permitir-solo-numeros-en-un-campo-de-texto-con-javascript/ "Permitir solo numeros en input")
-[Herramienta para practicar Flexbox](https://flexboxfroggy.com/#es "Herramienta para practicar Flexbox")
-[Material estudio CSS](https://www.aluracursos.com/blog/flexbox-css-guia-completo-elementos-y-ejemplos "Material estudio CSS")
-[Elementos HTML semantico](https://www.freecodecamp.org/espanol/news/elementos-semanticos-html5-explicados/ "Elementos HTML semantico")
+[Definicion Expresiones Regulares](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Grammar_and_Types#expresiones_regulares_%C2%ABregexp%C2%BB_literales "Expresiones Regulares") <br>
+[Herramienta para crear RegExp](https://regexr.com/ "Herramienta para crear RegExp")<br>
+[Como convertir string a numero](http://https://www.freecodecamp.org/news/<string-to-number-in-javascript-convert-a-string-to-an-int-in-js/ "Como convertir string a numero")<br>
+[Herramienta para aprender git branches](https://learngitbranching.js.org/?locale=es_ES "Herramienta para aprender git branches")<br>
+[Permitir solo numeros en input](http://https://www.coderbox.net/blog/permitir-solo-numeros-en-un-campo-de-texto-con-javascript/ "Permitir solo numeros en input")<br>
+[Herramienta para practicar Flexbox](https://flexboxfroggy.com/#es "Herramienta para practicar Flexbox")<br>
+[Material estudio CSS](https://www.aluracursos.com/blog/flexbox-css-guia-completo-elementos-y-ejemplos "Material estudio CSS")<br>
+[Elementos HTML semantico](https://www.freecodecamp.org/espanol/news/elementos-semanticos-html5-explicados/ "Elementos HTML semantico")<br>
 
 
 #### Glosario de terminos importantes
